@@ -1,0 +1,9 @@
+{:deps
+ {org.clojure/clojure {:mvn/version "1.9.0"}
+  org.clojure/clojurescript {:mvn/version "1.10.339"}
+  com.bhauman/figwheel-main {:mvn/version "0.2.0"}
+  com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
+  thi.ng/geom {:mvn/version "1.0.0-RC3"}
+  cljsjs/gl-matrix {:mvn/version "2.3.0-jenanwise-0"}}
+ :paths ["src" "resources" "target"]
+ :aliases {:dev {:main-opts ["-m" "figwheel.main" "-b" "dev" "-r"]}}}
